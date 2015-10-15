@@ -6,7 +6,12 @@ public class MySyntaxAnalyzer implements SyntaxAnalyzer {
 
 	@Override
 	public void markdown() throws CompilerException {
-		// TODO Auto-generated method stub
+		if(MyCompiler.currentToken.equalsIgnoreCase(Tokens.DOCB)) {
+			//do stuff			
+		}
+		else {
+			//error stuff
+		}
 
 	}
 
